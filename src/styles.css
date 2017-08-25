@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.jumbotron {
+  text-align: center;
+  background-image: url("./assets/images/seattlesound.jpg");
+  background-size: cover;
+  height: 750px;
+}
+
+#jumbo-heading {
+  margin-top: 315px;
+  color: white;
+  font-size: 7em;
+}
+
+#jumbo-detail {
+  color: white;
+  font-size: 4em;
+}

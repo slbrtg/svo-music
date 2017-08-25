@@ -1,7 +1,6 @@
-<h1>List of Music</h1>
-<div *ngFor="let music of music | async" class="panel panel-default music-panel" (click)="goToDetailPage(music)">
+<div *ngFor="let music of music | async" class="panel panel-default music-panel">
   <div class="panel-body music-panel-body">
-    <h2>{{music.name}}, {{music.genre}}</h2>
+    <h2 (click)="goToDetailPage(music)">{{music.name}}, {{music.genre}}</h2>
   </div>
   <div *ngIf="currentRoute === '/admin'">
     <edit-music [selectedMusic]="music"></edit-music>
