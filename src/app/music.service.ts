@@ -10,8 +10,12 @@ export class MusicService {
       this.music = database.list('music');
   }
 
-  getMusic(){
+  getAllMusic(){
     return this.music;
+  }
+
+  addNewMusic(newMusic: Music){
+    this.music.push(newMusic);
   }
 
 }

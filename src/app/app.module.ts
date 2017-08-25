@@ -10,6 +10,8 @@ import { AppComponent } from './root/app.component';
 import { MusicListComponent } from './music-list/music-list.component';
 import { AdminComponent } from './admin/admin.component';
 import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import { MusicPageComponent } from './music-page/music-page.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -23,7 +25,9 @@ export const firebaseConfig = {
     AppComponent,
     MusicListComponent,
     AdminComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent,
+    MusicPageComponent
   ],
   imports: [
     BrowserModule,

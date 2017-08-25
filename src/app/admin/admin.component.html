@@ -1,3 +1,29 @@
-<p>
-  admin works!
-</p>
+<h1>Add new music</h1>
+<div>
+  <div>
+    <label>Band/Musician/Project Name</label>
+    <input class="form-control" #newName>
+    <hr>
+  </div>
+  <div>
+    <label>Genre</label>
+    <input class="form-control" #newGenre>
+    <hr>
+  </div>
+  <div>
+    <label> Information on the project/members</label>
+    <textarea #newInfo></textarea>
+    <hr>
+  </div>
+  <div>
+    <label>Link to the music</label>
+    <input class="form-control" #newLink>
+    <hr>
+  </div>
+  <button class="btn btn-primary" (click)="addNewMusic(
+  newName.value,
+  newGenre.value,
+  newInfo.value,
+  newLink.value
+  )" >Submit</button>
+</div>

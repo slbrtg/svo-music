@@ -1,13 +1,15 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './root/app.component';
+import { HomeComponent } from './home/home.component';
 import { AdminComponent } from './admin/admin.component';
 import { AboutComponent } from './about/about.component';
+import { MusicPageComponent } from './music-page/music-page.component';
 
 const appRoutes: Routes = [
   {
     path: '',
-    component: AppComponent
+    component: HomeComponent
   },
   {
     path: 'admin',
@@ -16,6 +18,10 @@ const appRoutes: Routes = [
   {
     path: 'about',
     component: AboutComponent
+  },
+  {
+    path: 'music/:id',
+    component: MusicPageComponent
   }
 ];
 
