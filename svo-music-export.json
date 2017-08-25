@@ -1,0 +1,22 @@
+{
+  "music" : {
+    "-KsQPUnknOBe-d17f6mF" : {
+      "genre" : "Electronica/Indie Rock",
+      "info" : "My buddy's buddy Ramsey makes this stuff. It's pretty dark and dancey.",
+      "link" : "https://soundcloud.com/paisley-devil",
+      "name" : "Paisley Devil"
+    },
+    "-KsQPvnkdCHsupDov53U" : {
+      "genre" : "Western Gaze",
+      "info" : "Tunes made by a guy named Mick. Wields a mean electric guitar, but an even meaner slide guitar.",
+      "link" : "https://pioneerx.bandcamp.com/releases",
+      "name" : "Pioneer X"
+    },
+    "-KsQQCD1P1jMoLZ-GbFl" : {
+      "genre" : "Indie Death Gaze",
+      "info" : "Fronted by by DJ Dog Hat, these tunes bring an eclectic mix of indie, electronic, death metal, and a bunch of other shit.",
+      "link" : "https://soundcloud.com/dog-hat",
+      "name" : "dog hat"
+    }
+  }
+}
