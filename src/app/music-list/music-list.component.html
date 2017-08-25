@@ -3,4 +3,7 @@
   <div class="panel-body music-panel-body">
     <h3>{{music.name}}, {{music.genre}}</h3>
   </div>
+  <div *ngIf="currentRoute === '/admin'">
+    <edit-music></edit-music>
+  </div>
 </div>

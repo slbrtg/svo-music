@@ -1,0 +1,22 @@
+<h1>Edit Music</h1>
+<div>
+  <div>
+    <label>Band/Musician/Project Name</label>
+    <input class="form-control" [(ngModel)]="selectedMusic.name">
+    <hr>
+  </div>
+  <div>
+    <label>Genre</label>
+    <input class="form-control" [(ngModel)]="selectedMusic.genre">
+    <hr>
+  </div>
+  <div>
+    <label> Information on the project/members</label>
+    <textarea [(ngModel)]="selectedMusic.info"></textarea>
+    <hr>
+  </div>
+  <div>
+    <label>Link to the music</label>
+    <input class="form-control" [(ngModel)]="selectedMusic.link">
+    <hr>
+  </div>

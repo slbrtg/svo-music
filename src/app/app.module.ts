@@ -12,6 +12,7 @@ import { AdminComponent } from './admin/admin.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { MusicPageComponent } from './music-page/music-page.component';
+import { EditMusicComponent } from './edit-music/edit-music.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -27,7 +28,8 @@ export const firebaseConfig = {
     AdminComponent,
     AboutComponent,
     HomeComponent,
-    MusicPageComponent
+    MusicPageComponent,
+    EditMusicComponent
   ],
   imports: [
     BrowserModule,
