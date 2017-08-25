@@ -1,0 +1,17 @@
+{ "music": [{
+    "name": "1",
+    "genre": "1",
+    "info": "1",
+    "link": "1"
+  }, {
+    "name": "2",
+    "genre": "2",
+    "info": "2",
+    "link": "2"
+    }, {
+      "name": "3",
+      "genre": "3",
+      "info": "3",
+      "link": "3"
+  }]
+}
