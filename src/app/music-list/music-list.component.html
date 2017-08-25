@@ -1,6 +1,6 @@
 <h1>List of Music</h1>
-<div *ngFor="let x of music | async" class="panel panel-default music-panel">
+<div *ngFor="let music of music | async" class="panel panel-default music-panel" (click)="goToDetailPage(music)">
   <div class="panel-body music-panel-body">
-    <h3>{{x.name}}, {{x.genre}}</h3>
+    <h3>{{music.name}}, {{music.genre}}</h3>
   </div>
 </div>

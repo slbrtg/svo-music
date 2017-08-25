@@ -21,6 +21,8 @@ export class MusicListComponent implements OnInit {
   }
 
   goToDetailPage(clickedMusic) {
+    console.log("got this far");
+    console.log(clickedMusic);
     this.router.navigate(['music', clickedMusic.$key]);
   }
 

@@ -18,4 +18,8 @@ export class MusicService {
     this.music.push(newMusic);
   }
 
+  getMusicById(musicId: string) {
+    return this.database.object('music/' + musicId);
+  }
+
 }
