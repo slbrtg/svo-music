@@ -22,4 +22,19 @@ export class MusicService {
     return this.database.object('music/' + musicId);
   }
 
+  updateMusic(localUpdatedMusic) {
+    let musicEntryInFirebase = this.getMusicById(localUpdatedMusic.$key);
+    musicEntryInFirebase.update({
+      name: localUpdatedMusic.name,
+      genre: localUpdatedMusic.genre,
+      info: localUpdatedMusic.info,
+      link: localUpdatedMusic.link
+    });
+  }
+
+  deleteMusic(localMusicToDelete){
+    let musicEntryInFirebase = this.getMusicById(localMusicToDelete.$key);
+    musicEntryInFirebase.remove();
+  }
+
 }

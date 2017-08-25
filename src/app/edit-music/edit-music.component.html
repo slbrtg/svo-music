@@ -20,3 +20,6 @@
     <input class="form-control" [(ngModel)]="selectedMusic.link">
     <hr>
   </div>
+  <button class="btn btn-success"(click)="beginUpdatingMusic(selectedMusic)">Update</button>
+  <hr>
+  <button class="btn btn-danger"(click)="beginDeletingMusic(selectedMusic)">Delete</button>
